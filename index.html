@@ -5,6 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nemesis, Johannes Smits | Sci-Fi Novel</title>
   <meta name="description" content="She didn't choose this century, this body, or this fight. She's finishing it anyway. A sci-fi novel by Johannes Smits.">
+  <meta name="author" content="Johannes Smits">
+
+  <!-- Open Graph Meta Tags (WhatsApp, Facebook, LinkedIn, etc.) -->
+  <meta property="og:type" content="book">
+  <meta property="og:site_name" content="Johannes Smits">
+  <meta property="og:title" content="Nemesis, by Johannes Smits">
+  <meta property="og:description" content="She didn't choose this century, this body, or this fight. She's finishing it anyway. One ship, a fold drive, and no patience left.">
+  <meta property="og:url" content="https://nemesis.johannessmits.nl/">
+  <meta property="og:image" content="https://nemesis.johannessmits.nl/cover.jpg">
+  <meta property="og:image:alt" content="Nemesis Book Cover">
+  <meta property="book:author" content="Johannes Smits">
+  <meta property="book:genre" content="Science Fiction">
+
+  <!-- Twitter / X Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nemesis, by Johannes Smits">
+  <meta name="twitter:description" content="She didn't choose this century, this body, or this fight. She's finishing it anyway. One ship, a fold drive, and no patience left.">
+  <meta name="twitter:image" content="https://nemesis.johannessmits.nl/cover.jpg">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +59,6 @@
       overflow-x: hidden;
     }
 
-    /* Wazige dynamische achtergrond op basis van cover.jpg */
     .bg-blur {
       position: fixed;
       top: -10%;
@@ -58,7 +75,6 @@
       pointer-events: none;
     }
 
-    /* Donkere verlooplaag over de blur */
     .bg-overlay {
       position: fixed;
       top: 0;
@@ -118,7 +134,6 @@
       letter-spacing: 0.05em;
     }
 
-    /* Hero Card met Glassmorphism */
     .hero-grid {
       display: grid;
       grid-template-columns: 280px 1fr;
@@ -173,7 +188,6 @@
       color: #fff;
     }
 
-    /* Buy Now Accordion */
     .buy-now-wrapper {
       margin-top: 1.5rem;
       display: flex;
@@ -250,7 +264,6 @@
       color: #fff;
     }
 
-    /* Video Trailer */
     .section-title {
       font-family: 'Space Grotesk', sans-serif;
       font-size: 1.1rem;
@@ -330,7 +343,6 @@
 </head>
 <body>
 
-  <!-- Dynamic blurred background layer -->
   <div class="bg-blur"></div>
   <div class="bg-overlay"></div>
 
@@ -366,7 +378,6 @@
           They have a fold drive and no patience left.
         </p>
 
-        <!-- Buy Now Dropdown Selector -->
         <div class="buy-now-wrapper">
           <button class="buy-btn" id="buyBtn" onclick="toggleRetailers()">
             <span>Buy Now</span>
@@ -382,7 +393,6 @@
       </div>
     </div>
 
-    <!-- Book Trailer Video -->
     <div class="section-title">Watch the Official Trailer</div>
     <div class="video-container">
       <iframe 
